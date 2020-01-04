@@ -1,0 +1,57 @@
+diff --git a/node_modules/react-native-wowza-gocoder/ios/BroadcastManager.m b/node_modules/react-native-wowza-gocoder/ios/BroadcastManager.m
+index 57bba39..4f12527 100644
+--- a/node_modules/react-native-wowza-gocoder/ios/BroadcastManager.m
++++ b/node_modules/react-native-wowza-gocoder/ios/BroadcastManager.m
+@@ -111,7 +111,7 @@ +(void)changeStreamName:(NSString *)name andBroadcastView:(WMBroadcastView *)bro
+ 
+ +(WOWZBroadcastOrientation)getBroadcastOrientation:(NSString *)orientationString {
+     if ([orientationString isEqualToString:@"landscape"]) {
+-        return WOWZBroadcastOrientationAlwaysLandscape;
++        return WOWZBroadcastOrientationAlwaysLandscapeLeft;
+     } else if ([orientationString isEqualToString:@"portrait"]) {
+         return WOWZBroadcastOrientationAlwaysPortrait;
+     }
+diff --git a/node_modules/react-native-wowza-gocoder/ios/RNWowzaBroadcaster.xcodeproj/xcuserdata/zyon.xcuserdatad/xcschemes/xcschememanagement.plist b/node_modules/react-native-wowza-gocoder/ios/RNWowzaBroadcaster.xcodeproj/xcuserdata/zyon.xcuserdatad/xcschemes/xcschememanagement.plist
+new file mode 100644
+index 0000000..98927a1
+--- /dev/null
++++ b/node_modules/react-native-wowza-gocoder/ios/RNWowzaBroadcaster.xcodeproj/xcuserdata/zyon.xcuserdatad/xcschemes/xcschememanagement.plist
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>SchemeUserState</key>
++	<dict>
++		<key>RNWowzaBroadcaster.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>52</integer>
++		</dict>
++	</dict>
++</dict>
++</plist>
+diff --git a/node_modules/react-native-wowza-gocoder/react-native-wowza-gocoder.podspec b/node_modules/react-native-wowza-gocoder/react-native-wowza-gocoder.podspec
+new file mode 100644
+index 0000000..051d95b
+--- /dev/null
++++ b/node_modules/react-native-wowza-gocoder/react-native-wowza-gocoder.podspec
+@@ -0,0 +1,18 @@
++require 'json'
++
++package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
++
++Pod::Spec.new do |s|
++  s.name         = package['name']
++  s.version      = package['version']
++  s.summary      = package['description']
++  s.license      = package['license']
++
++  s.authors      = package['author']
++  s.homepage     = package['homepage']
++  s.platform     = :ios, "9.0"
++
++  s.source       = { :git => "https://github.com/medlmobileenterprises/react-native-wowza-gocoder.git", :tag => "v#{s.version}" }
++  # s.source_files  = "ios/*.{h,m}"
++  s.dependency 'React'
++end

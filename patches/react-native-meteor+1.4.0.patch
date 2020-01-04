@@ -1,0 +1,41 @@
+diff --git a/node_modules/react-native-meteor/src/Meteor.js b/node_modules/react-native-meteor/src/Meteor.js
+index 20be280..3d7e156 100644
+--- a/node_modules/react-native-meteor/src/Meteor.js
++++ b/node_modules/react-native-meteor/src/Meteor.js
+@@ -1,5 +1,5 @@
+-import { NetInfo, Platform, View } from 'react-native';
+-
++import { Platform, View } from 'react-native';
++import NetInfo from '@react-native-community/netinfo';
+ import reactMixin from 'react-mixin';
+ import Trackr from 'trackr';
+ import EJSON from 'ejson';
+diff --git a/node_modules/react-native-meteor/src/user/User.js b/node_modules/react-native-meteor/src/user/User.js
+index 86fd1c9..ce817d7 100644
+--- a/node_modules/react-native-meteor/src/user/User.js
++++ b/node_modules/react-native-meteor/src/user/User.js
+@@ -53,10 +53,23 @@ module.exports = {
+ 
+         this._handleLoginCallback(err, result);
+ 
+-        typeof callback == 'function' && callback(err);
++        typeof callback == 'function' && callback(err, result);
+       }
+     );
+   },
++  loginWithToken(value, callback) {
++    Data._tokenIdSaved = value;
++    if (value !== null) {
++      this._startLoggingIn();
++      call('login', { resume: value }, (err, result) => {
++        this._endLoggingIn();
++        this._handleLoginCallback(err, result);
++        typeof callback == 'function' && callback(err);
++      });
++    } else {
++      this._endLoggingIn();
++    }
++  },
+   logoutOtherClients(callback = () => {}) {
+     call('getNewToken', (err, res) => {
+       if (err) return callback(err);

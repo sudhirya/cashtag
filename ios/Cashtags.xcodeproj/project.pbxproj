@@ -1,0 +1,1556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CashtagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CashtagsTests.m */; };
+		117A7C3ACF4B4D9583AA88DD /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8D7DAB5D9904216A2CFBAE7 /* OpenSans-Semibold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		22842E38209F42DAB525023F /* Stink on the Death.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 601727845C9741F384BA0858 /* Stink on the Death.ttf */; };
+		24BF0EA894234E20A680C66D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0971E0C7713F4FB39E9CCAA8 /* Montserrat-Bold.ttf */; };
+		26593A624F73432D92D73698 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8668418A71F44ED3BB686813 /* Montserrat-Thin.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* CashtagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CashtagsTests.m */; };
+		2F2071B9DC614FCBAC349CCF /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6BAB148C828457BBDA718EA /* Montserrat-Light.ttf */; };
+		46B1FFEC9595CD0C87638B1C /* libPods-Cashtags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67404610D3DB65C89F2F1A4A /* libPods-Cashtags.a */; };
+		5099D71521A14129AA1B350E /* Bitter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A00DB046FA9848B6A7945BB6 /* Bitter-Italic.ttf */; };
+		59865BAD48E5424CB2D1F3F2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C556A09153794E65BF93D094 /* OpenSans-Regular.ttf */; };
+		6BA0FF25A43B771F76797BB6 /* libPods-Cashtags-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA0332915C375237965455F /* libPods-Cashtags-tvOSTests.a */; };
+		6F47756FC3EA455B83FEDB42 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B065E4859D14F9AAC794808 /* OpenSans-Light.ttf */; };
+		842CB6679DC44943A557EED5 /* Bitter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A161E20277412A87E5B4EF /* Bitter-Regular.ttf */; };
+		8C0B676468614A8F82FBDCE1 /* Bitter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38867867234F4763B8345938 /* Bitter-Bold.ttf */; };
+		A423AF4F2356519A004160E3 /* libRNWowzaBroadcaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A423AF4E23565176004160E3 /* libRNWowzaBroadcaster.a */; };
+		A423AF942356563F004160E3 /* WowzaGoCoderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423AF932356563F004160E3 /* WowzaGoCoderSDK.framework */; };
+		A423AF962356566F004160E3 /* WowzaGoCoderSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A423AF932356563F004160E3 /* WowzaGoCoderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4A3E9CD235672D400FC2014 /* AppleMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9C0235672D400FC2014 /* AppleMusicModel.m */; };
+		A4A3E9CE235672D400FC2014 /* RNAppleMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9C1235672D400FC2014 /* RNAppleMusicPlayer.m */; };
+		A4A3E9CF235672D400FC2014 /* RNAppleMusicPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9C5235672D400FC2014 /* RNAppleMusicPlayerManager.m */; };
+		A4A3E9D0235672D400FC2014 /* AppleMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9C7235672D400FC2014 /* AppleMusicPlayer.m */; };
+		A4A3E9D1235672D400FC2014 /* AppleMusicApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9C8235672D400FC2014 /* AppleMusicApi.m */; };
+		A4A3E9D2235672D400FC2014 /* RNAppleMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9CA235672D400FC2014 /* RNAppleMusic.m */; };
+		A4A3E9D3235672D400FC2014 /* AppleMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9CB235672D400FC2014 /* AppleMusicManager.m */; };
+		A4A3E9FC235673FC00FC2014 /* URLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9D6235673FB00FC2014 /* URLRequestManager.m */; };
+		A4A3E9FD235673FC00FC2014 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9DC235673FB00FC2014 /* AFURLResponseSerialization.m */; };
+		A4A3E9FE235673FC00FC2014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9DD235673FB00FC2014 /* AFHTTPSessionManager.m */; };
+		A4A3E9FF235673FC00FC2014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9DF235673FB00FC2014 /* AFURLSessionManager.m */; };
+		A4A3EA00235673FC00FC2014 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9E0235673FB00FC2014 /* AFURLRequestSerialization.m */; };
+		A4A3EA01235673FC00FC2014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9E2235673FB00FC2014 /* AFNetworkReachabilityManager.m */; };
+		A4A3EA02235673FC00FC2014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9E3235673FB00FC2014 /* AFSecurityPolicy.m */; };
+		A4A3EA03235673FC00FC2014 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4A3E9E5235673FB00FC2014 /* LICENSE */; };
+		A4A3EA04235673FC00FC2014 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4A3E9E6235673FB00FC2014 /* README.md */; };
+		A4A3EA05235673FC00FC2014 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9E8235673FC00FC2014 /* UIProgressView+AFNetworking.m */; };
+		A4A3EA06235673FC00FC2014 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9EA235673FC00FC2014 /* UIRefreshControl+AFNetworking.m */; };
+		A4A3EA07235673FC00FC2014 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9ED235673FC00FC2014 /* AFNetworkActivityIndicatorManager.m */; };
+		A4A3EA08235673FC00FC2014 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9F3235673FC00FC2014 /* UIImageView+AFNetworking.m */; };
+		A4A3EA09235673FC00FC2014 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9F6235673FC00FC2014 /* UIButton+AFNetworking.m */; };
+		A4A3EA0A235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9F7235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.m */; };
+		A4A3EA0B235673FC00FC2014 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9F8235673FC00FC2014 /* UIWebView+AFNetworking.m */; };
+		A4A3EA0C235673FC00FC2014 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9F9235673FC00FC2014 /* AFAutoPurgingImageCache.m */; };
+		A4A3EA0D235673FC00FC2014 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E9FB235673FC00FC2014 /* AFImageDownloader.m */; };
+		A4A3EA112356743800FC2014 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA0F2356743800FC2014 /* NSDictionary+JSON.m */; };
+		A4A3EA2D2356772C00FC2014 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3EA2C2356772C00FC2014 /* SpotifyiOS.framework */; };
+		A4A3EA30235689B000FC2014 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA2F235689B000FC2014 /* Dummy.swift */; };
+		A4A3EA3623568D0E00FC2014 /* AppBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA3223568D0E00FC2014 /* AppBridge.m */; };
+		A4A3EA3723568D0E00FC2014 /* NowPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA3323568D0E00FC2014 /* NowPlaying.m */; };
+		A4A3EA3B23568D4C00FC2014 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA3A23568D4C00FC2014 /* UIImage+Helper.m */; };
+		A4A3EA7523568E2600FC2014 /* YoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EA6723568E2600FC2014 /* YoutubeParser.m */; };
+		A5675F8E174A4DA387DF7B7E /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 085F1C5EA45F406FA11D7747 /* AbrilFatface-Regular.ttf */; };
+		AFF34A2676CD32A6818D49B4 /* libPods-Cashtags-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2078A07104CAA27836D930 /* libPods-Cashtags-tvOS.a */; };
+		CBE94DAD79B844418C28A8CA /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A1DABB395437896D85185 /* Montserrat-SemiBold.ttf */; };
+		D296BC372E21BAD5C7B273D6 /* libPods-CashtagsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE344AE9C205EA0FCC1551 /* libPods-CashtagsTests.a */; };
+		DB29D846C5244D73BDB6F921 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E168A5C11433BB396A9BC /* Montserrat-Regular.ttf */; };
+		DCC2A48B83D64C1CB63E3E40 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DABF7AAA74412780E43023 /* OpenSans-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Cashtags;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Cashtags-tvOS";
+		};
+		A423AF4D23565176004160E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A423AF4923565176004160E3 /* RNWowzaBroadcaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNWowzaBroadcaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A423AF972356566F004160E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A423AF962356566F004160E3 /* WowzaGoCoderSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* CashtagsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashtagsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CashtagsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashtagsTests.m; sourceTree = "<group>"; };
+		01A57C74B5BB451BB9301F86 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		085F1C5EA45F406FA11D7747 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AbrilFatface-Regular.ttf"; path = "../source/res/fonts/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
+		0910AEC4291846129E33261C /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		0971E0C7713F4FB39E9CCAA8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../source/res/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Cashtags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashtags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cashtags/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cashtags/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cashtags/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cashtags/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cashtags/main.m; sourceTree = "<group>"; };
+		1BAE344AE9C205EA0FCC1551 /* libPods-CashtagsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CashtagsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4D203D94664DB0B3F7672A /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Cashtags-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cashtags-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Cashtags-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cashtags-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38867867234F4763B8345938 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bitter-Bold.ttf"; path = "../source/res/fonts/Bitter-Bold.ttf"; sourceTree = "<group>"; };
+		471C825E5095482995AAF883 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		4B065E4859D14F9AAC794808 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../source/res/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4EB82CC32AB14C27A6E28113 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		4F2078A07104CAA27836D930 /* libPods-Cashtags-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cashtags-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A161E20277412A87E5B4EF /* Bitter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bitter-Regular.ttf"; path = "../source/res/fonts/Bitter-Regular.ttf"; sourceTree = "<group>"; };
+		5A2A1DABB395437896D85185 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../source/res/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		601727845C9741F384BA0858 /* Stink on the Death.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Stink on the Death.ttf"; path = "../source/res/fonts/Stink on the Death.ttf"; sourceTree = "<group>"; };
+		67404610D3DB65C89F2F1A4A /* libPods-Cashtags.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cashtags.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6983C0AAC0BFBD466B64E21A /* Pods-Cashtags-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Cashtags-tvOS/Pods-Cashtags-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		71ACC9AE05DF4D0DBDD12481 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		72DABF7AAA74412780E43023 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../source/res/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		778F5AC4328248D1BA8E5DF0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		79FEB6D8AA7ECA98AAE17402 /* Pods-Cashtags-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cashtags-tvOSTests/Pods-Cashtags-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F9E168A5C11433BB396A9BC /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../source/res/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		8668418A71F44ED3BB686813 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../source/res/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		90C0DE09B6D04F98987D8F38 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		926C316D1629482590967A7E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		9548A525AD334191AB04C1AD /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A00DB046FA9848B6A7945BB6 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bitter-Italic.ttf"; path = "../source/res/fonts/Bitter-Italic.ttf"; sourceTree = "<group>"; };
+		A423AF4923565176004160E3 /* RNWowzaBroadcaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNWowzaBroadcaster.xcodeproj; path = "../node_modules/react-native-wowza-gocoder/ios/RNWowzaBroadcaster.xcodeproj"; sourceTree = "<group>"; };
+		A423AF932356563F004160E3 /* WowzaGoCoderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WowzaGoCoderSDK.framework; sourceTree = "<group>"; };
+		A4A3E9BF235672D400FC2014 /* AppleMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMusicModel.h; sourceTree = "<group>"; };
+		A4A3E9C0235672D400FC2014 /* AppleMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMusicModel.m; sourceTree = "<group>"; };
+		A4A3E9C1235672D400FC2014 /* RNAppleMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAppleMusicPlayer.m; sourceTree = "<group>"; };
+		A4A3E9C2235672D400FC2014 /* AppleMusicApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMusicApi.h; sourceTree = "<group>"; };
+		A4A3E9C3235672D400FC2014 /* AppleMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMusicPlayer.h; sourceTree = "<group>"; };
+		A4A3E9C4235672D400FC2014 /* RNAppleMusicPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAppleMusicPlayerManager.h; sourceTree = "<group>"; };
+		A4A3E9C5235672D400FC2014 /* RNAppleMusicPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAppleMusicPlayerManager.m; sourceTree = "<group>"; };
+		A4A3E9C6235672D400FC2014 /* AppleMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMusicManager.h; sourceTree = "<group>"; };
+		A4A3E9C7235672D400FC2014 /* AppleMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMusicPlayer.m; sourceTree = "<group>"; };
+		A4A3E9C8235672D400FC2014 /* AppleMusicApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMusicApi.m; sourceTree = "<group>"; };
+		A4A3E9C9235672D400FC2014 /* RNAppleMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAppleMusicPlayer.h; sourceTree = "<group>"; };
+		A4A3E9CA235672D400FC2014 /* RNAppleMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAppleMusic.m; sourceTree = "<group>"; };
+		A4A3E9CB235672D400FC2014 /* AppleMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMusicManager.m; sourceTree = "<group>"; };
+		A4A3E9CC235672D400FC2014 /* RNAppleMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAppleMusic.h; sourceTree = "<group>"; };
+		A4A3E9D5235673FB00FC2014 /* URLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequestManager.h; sourceTree = "<group>"; };
+		A4A3E9D6235673FB00FC2014 /* URLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequestManager.m; sourceTree = "<group>"; };
+		A4A3E9D8235673FB00FC2014 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A4A3E9D9235673FB00FC2014 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A4A3E9DA235673FB00FC2014 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A4A3E9DB235673FB00FC2014 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A4A3E9DC235673FB00FC2014 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A4A3E9DD235673FB00FC2014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A4A3E9DE235673FB00FC2014 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A4A3E9DF235673FB00FC2014 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A4A3E9E0235673FB00FC2014 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A4A3E9E1235673FB00FC2014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A4A3E9E2235673FB00FC2014 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A4A3E9E3235673FB00FC2014 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A4A3E9E4235673FB00FC2014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A4A3E9E5235673FB00FC2014 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4A3E9E6235673FB00FC2014 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A4A3E9E8235673FC00FC2014 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9E9235673FC00FC2014 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9EA235673FC00FC2014 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9EB235673FC00FC2014 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9EC235673FC00FC2014 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		A4A3E9ED235673FC00FC2014 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A4A3E9EE235673FC00FC2014 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		A4A3E9EF235673FC00FC2014 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F0235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F1235673FC00FC2014 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F2235673FC00FC2014 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F3235673FC00FC2014 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9F4235673FC00FC2014 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F5235673FC00FC2014 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A3E9F6235673FC00FC2014 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9F7235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9F8235673FC00FC2014 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		A4A3E9F9235673FC00FC2014 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		A4A3E9FA235673FC00FC2014 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A4A3E9FB235673FC00FC2014 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		A4A3EA0F2356743800FC2014 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		A4A3EA102356743800FC2014 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		A4A3EA2C2356772C00FC2014 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		A4A3EA2E235689B000FC2014 /* Cashtags-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cashtags-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4A3EA2F235689B000FC2014 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dummy.swift; path = Cashtags/Dummy.swift; sourceTree = "<group>"; };
+		A4A3EA3223568D0E00FC2014 /* AppBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBridge.m; sourceTree = "<group>"; };
+		A4A3EA3323568D0E00FC2014 /* NowPlaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlaying.m; sourceTree = "<group>"; };
+		A4A3EA3423568D0E00FC2014 /* AppBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBridge.h; sourceTree = "<group>"; };
+		A4A3EA3523568D0E00FC2014 /* NowPlaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlaying.h; sourceTree = "<group>"; };
+		A4A3EA3923568D4C00FC2014 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		A4A3EA3A23568D4C00FC2014 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		A4A3EA6623568E2600FC2014 /* YoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeParser.h; sourceTree = "<group>"; };
+		A4A3EA6723568E2600FC2014 /* YoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeParser.m; sourceTree = "<group>"; };
+		A4D4EFF5F606135EA504363F /* Pods-CashtagsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashtagsTests.debug.xcconfig"; path = "Target Support Files/Pods-CashtagsTests/Pods-CashtagsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B4797A168A4FF0B0DE4638 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		B8D7DAB5D9904216A2CFBAE7 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Semibold.ttf"; path = "../source/res/fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		BDF6E62486C94E00BD4CC54C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		C0A09663BBCB49048A9C6F28 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		C556A09153794E65BF93D094 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../source/res/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CACDC38D2477F83C70362E53 /* Pods-Cashtags.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags.debug.xcconfig"; path = "Target Support Files/Pods-Cashtags/Pods-Cashtags.debug.xcconfig"; sourceTree = "<group>"; };
+		D49B50E13D774DA6806C4614 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		DC7D063CD4A7EA5F5CD34FBB /* Pods-Cashtags-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Cashtags-tvOS/Pods-Cashtags-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E679987BFAEA82BA8DBF3451 /* Pods-Cashtags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags.release.xcconfig"; path = "Target Support Files/Pods-Cashtags/Pods-Cashtags.release.xcconfig"; sourceTree = "<group>"; };
+		E754AA4C48C3B68CE91839D6 /* Pods-CashtagsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashtagsTests.release.xcconfig"; path = "Target Support Files/Pods-CashtagsTests/Pods-CashtagsTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDA0332915C375237965455F /* libPods-Cashtags-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cashtags-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107B243693D4F6FA53BD66B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F54592227CF97E1B5BA059D3 /* Pods-Cashtags-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashtags-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cashtags-tvOSTests/Pods-Cashtags-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F59385BA8BDB4CEDA37FE929 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		F6BAB148C828457BBDA718EA /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../source/res/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296BC372E21BAD5C7B273D6 /* libPods-CashtagsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A423AF942356563F004160E3 /* WowzaGoCoderSDK.framework in Frameworks */,
+				A4A3EA2D2356772C00FC2014 /* SpotifyiOS.framework in Frameworks */,
+				A423AF4F2356519A004160E3 /* libRNWowzaBroadcaster.a in Frameworks */,
+				46B1FFEC9595CD0C87638B1C /* libPods-Cashtags.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF34A2676CD32A6818D49B4 /* libPods-Cashtags-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA0FF25A43B771F76797BB6 /* libPods-Cashtags-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CashtagsTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CashtagsTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CashtagsTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Cashtags */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				A4A3EA2F235689B000FC2014 /* Dummy.swift */,
+				A4A3EA2E235689B000FC2014 /* Cashtags-Bridging-Header.h */,
+			);
+			name = Cashtags;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA2C2356772C00FC2014 /* SpotifyiOS.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				67404610D3DB65C89F2F1A4A /* libPods-Cashtags.a */,
+				4F2078A07104CAA27836D930 /* libPods-Cashtags-tvOS.a */,
+				EDA0332915C375237965455F /* libPods-Cashtags-tvOSTests.a */,
+				1BAE344AE9C205EA0FCC1551 /* libPods-CashtagsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6084BD8A9B73485C858401EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				085F1C5EA45F406FA11D7747 /* AbrilFatface-Regular.ttf */,
+				38867867234F4763B8345938 /* Bitter-Bold.ttf */,
+				A00DB046FA9848B6A7945BB6 /* Bitter-Italic.ttf */,
+				50A161E20277412A87E5B4EF /* Bitter-Regular.ttf */,
+				0971E0C7713F4FB39E9CCAA8 /* Montserrat-Bold.ttf */,
+				F6BAB148C828457BBDA718EA /* Montserrat-Light.ttf */,
+				7F9E168A5C11433BB396A9BC /* Montserrat-Regular.ttf */,
+				5A2A1DABB395437896D85185 /* Montserrat-SemiBold.ttf */,
+				8668418A71F44ED3BB686813 /* Montserrat-Thin.ttf */,
+				72DABF7AAA74412780E43023 /* OpenSans-Bold.ttf */,
+				4B065E4859D14F9AAC794808 /* OpenSans-Light.ttf */,
+				C556A09153794E65BF93D094 /* OpenSans-Regular.ttf */,
+				B8D7DAB5D9904216A2CFBAE7 /* OpenSans-Semibold.ttf */,
+				601727845C9741F384BA0858 /* Stink on the Death.ttf */,
+				F107B243693D4F6FA53BD66B /* AntDesign.ttf */,
+				71ACC9AE05DF4D0DBDD12481 /* Entypo.ttf */,
+				2C4D203D94664DB0B3F7672A /* EvilIcons.ttf */,
+				471C825E5095482995AAF883 /* Feather.ttf */,
+				0910AEC4291846129E33261C /* FontAwesome.ttf */,
+				C0A09663BBCB49048A9C6F28 /* FontAwesome5_Brands.ttf */,
+				A5B4797A168A4FF0B0DE4638 /* FontAwesome5_Regular.ttf */,
+				778F5AC4328248D1BA8E5DF0 /* FontAwesome5_Solid.ttf */,
+				D49B50E13D774DA6806C4614 /* Fontisto.ttf */,
+				926C316D1629482590967A7E /* Foundation.ttf */,
+				F59385BA8BDB4CEDA37FE929 /* Ionicons.ttf */,
+				01A57C74B5BB451BB9301F86 /* MaterialCommunityIcons.ttf */,
+				BDF6E62486C94E00BD4CC54C /* MaterialIcons.ttf */,
+				9548A525AD334191AB04C1AD /* Octicons.ttf */,
+				90C0DE09B6D04F98987D8F38 /* SimpleLineIcons.ttf */,
+				4EB82CC32AB14C27A6E28113 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A423AF4923565176004160E3 /* RNWowzaBroadcaster.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA3C23568DFF00FC2014 /* YoutubeParser */,
+				A4A3EA3823568D3100FC2014 /* UIImage */,
+				A4A3EA3123568CEE00FC2014 /* AppBridge */,
+				A4A3EA0E2356741D00FC2014 /* NSDictionary */,
+				A4A3E9D4235673D500FC2014 /* AFNetworking */,
+				A4A3E9BE235672B000FC2014 /* AppleMusic */,
+				A423AF932356563F004160E3 /* WowzaGoCoderSDK.framework */,
+				13B07FAE1A68108700A75B9A /* Cashtags */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CashtagsTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				931743A53995BAB4387286B8 /* Pods */,
+				6084BD8A9B73485C858401EA /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Cashtags.app */,
+				00E356EE1AD99517003FC87E /* CashtagsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Cashtags-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Cashtags-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931743A53995BAB4387286B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CACDC38D2477F83C70362E53 /* Pods-Cashtags.debug.xcconfig */,
+				E679987BFAEA82BA8DBF3451 /* Pods-Cashtags.release.xcconfig */,
+				DC7D063CD4A7EA5F5CD34FBB /* Pods-Cashtags-tvOS.debug.xcconfig */,
+				6983C0AAC0BFBD466B64E21A /* Pods-Cashtags-tvOS.release.xcconfig */,
+				79FEB6D8AA7ECA98AAE17402 /* Pods-Cashtags-tvOSTests.debug.xcconfig */,
+				F54592227CF97E1B5BA059D3 /* Pods-Cashtags-tvOSTests.release.xcconfig */,
+				A4D4EFF5F606135EA504363F /* Pods-CashtagsTests.debug.xcconfig */,
+				E754AA4C48C3B68CE91839D6 /* Pods-CashtagsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A423AF4A23565176004160E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A423AF4E23565176004160E3 /* libRNWowzaBroadcaster.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A3E9BE235672B000FC2014 /* AppleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3E9C2235672D400FC2014 /* AppleMusicApi.h */,
+				A4A3E9C8235672D400FC2014 /* AppleMusicApi.m */,
+				A4A3E9C6235672D400FC2014 /* AppleMusicManager.h */,
+				A4A3E9CB235672D400FC2014 /* AppleMusicManager.m */,
+				A4A3E9BF235672D400FC2014 /* AppleMusicModel.h */,
+				A4A3E9C0235672D400FC2014 /* AppleMusicModel.m */,
+				A4A3E9C3235672D400FC2014 /* AppleMusicPlayer.h */,
+				A4A3E9C7235672D400FC2014 /* AppleMusicPlayer.m */,
+				A4A3E9CC235672D400FC2014 /* RNAppleMusic.h */,
+				A4A3E9CA235672D400FC2014 /* RNAppleMusic.m */,
+				A4A3E9C9235672D400FC2014 /* RNAppleMusicPlayer.h */,
+				A4A3E9C1235672D400FC2014 /* RNAppleMusicPlayer.m */,
+				A4A3E9C4235672D400FC2014 /* RNAppleMusicPlayerManager.h */,
+				A4A3E9C5235672D400FC2014 /* RNAppleMusicPlayerManager.m */,
+			);
+			path = AppleMusic;
+			sourceTree = "<group>";
+		};
+		A4A3E9D4235673D500FC2014 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3E9D7235673FB00FC2014 /* AFNetworking */,
+				A4A3E9E5235673FB00FC2014 /* LICENSE */,
+				A4A3E9E6235673FB00FC2014 /* README.md */,
+				A4A3E9E7235673FC00FC2014 /* UIKit+AFNetworking */,
+				A4A3E9D5235673FB00FC2014 /* URLRequestManager.h */,
+				A4A3E9D6235673FB00FC2014 /* URLRequestManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A4A3E9D7235673FB00FC2014 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3E9D8235673FB00FC2014 /* AFSecurityPolicy.h */,
+				A4A3E9D9235673FB00FC2014 /* AFNetworkReachabilityManager.h */,
+				A4A3E9DA235673FB00FC2014 /* AFURLSessionManager.h */,
+				A4A3E9DB235673FB00FC2014 /* AFURLRequestSerialization.h */,
+				A4A3E9DC235673FB00FC2014 /* AFURLResponseSerialization.m */,
+				A4A3E9DD235673FB00FC2014 /* AFHTTPSessionManager.m */,
+				A4A3E9DE235673FB00FC2014 /* AFURLResponseSerialization.h */,
+				A4A3E9DF235673FB00FC2014 /* AFURLSessionManager.m */,
+				A4A3E9E0235673FB00FC2014 /* AFURLRequestSerialization.m */,
+				A4A3E9E1235673FB00FC2014 /* AFNetworking.h */,
+				A4A3E9E2235673FB00FC2014 /* AFNetworkReachabilityManager.m */,
+				A4A3E9E3235673FB00FC2014 /* AFSecurityPolicy.m */,
+				A4A3E9E4235673FB00FC2014 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A4A3E9E7235673FC00FC2014 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3E9E8235673FC00FC2014 /* UIProgressView+AFNetworking.m */,
+				A4A3E9E9235673FC00FC2014 /* UIButton+AFNetworking.h */,
+				A4A3E9EA235673FC00FC2014 /* UIRefreshControl+AFNetworking.m */,
+				A4A3E9EB235673FC00FC2014 /* UIImageView+AFNetworking.h */,
+				A4A3E9EC235673FC00FC2014 /* AFImageDownloader.h */,
+				A4A3E9ED235673FC00FC2014 /* AFNetworkActivityIndicatorManager.m */,
+				A4A3E9EE235673FC00FC2014 /* AFAutoPurgingImageCache.h */,
+				A4A3E9EF235673FC00FC2014 /* UIWebView+AFNetworking.h */,
+				A4A3E9F0235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.h */,
+				A4A3E9F1235673FC00FC2014 /* UIImage+AFNetworking.h */,
+				A4A3E9F2235673FC00FC2014 /* UIProgressView+AFNetworking.h */,
+				A4A3E9F3235673FC00FC2014 /* UIImageView+AFNetworking.m */,
+				A4A3E9F4235673FC00FC2014 /* UIKit+AFNetworking.h */,
+				A4A3E9F5235673FC00FC2014 /* UIRefreshControl+AFNetworking.h */,
+				A4A3E9F6235673FC00FC2014 /* UIButton+AFNetworking.m */,
+				A4A3E9F7235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.m */,
+				A4A3E9F8235673FC00FC2014 /* UIWebView+AFNetworking.m */,
+				A4A3E9F9235673FC00FC2014 /* AFAutoPurgingImageCache.m */,
+				A4A3E9FA235673FC00FC2014 /* AFNetworkActivityIndicatorManager.h */,
+				A4A3E9FB235673FC00FC2014 /* AFImageDownloader.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		A4A3EA0E2356741D00FC2014 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA102356743800FC2014 /* NSDictionary+JSON.h */,
+				A4A3EA0F2356743800FC2014 /* NSDictionary+JSON.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		A4A3EA3123568CEE00FC2014 /* AppBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA3423568D0E00FC2014 /* AppBridge.h */,
+				A4A3EA3223568D0E00FC2014 /* AppBridge.m */,
+				A4A3EA3523568D0E00FC2014 /* NowPlaying.h */,
+				A4A3EA3323568D0E00FC2014 /* NowPlaying.m */,
+			);
+			path = AppBridge;
+			sourceTree = "<group>";
+		};
+		A4A3EA3823568D3100FC2014 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA3923568D4C00FC2014 /* UIImage+Helper.h */,
+				A4A3EA3A23568D4C00FC2014 /* UIImage+Helper.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		A4A3EA3C23568DFF00FC2014 /* YoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EA6623568E2600FC2014 /* YoutubeParser.h */,
+				A4A3EA6723568E2600FC2014 /* YoutubeParser.m */,
+			);
+			path = YoutubeParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CashtagsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CashtagsTests" */;
+			buildPhases = (
+				A8CC95094D09F3DAC4AA1490 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CashtagsTests;
+			productName = CashtagsTests;
+			productReference = 00E356EE1AD99517003FC87E /* CashtagsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Cashtags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cashtags" */;
+			buildPhases = (
+				5AF50E3F3640454B18B6D5E6 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				0D15EB3F96B96C4B736AB80A /* [CP] Embed Pods Frameworks */,
+				6BFE8B88F6062EFC50EAAA10 /* [CP] Copy Pods Resources */,
+				A423AF972356566F004160E3 /* Embed Frameworks */,
+				A423AF98235656AB004160E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cashtags;
+			productName = Cashtags;
+			productReference = 13B07F961A680F5B00A75B9A /* Cashtags.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Cashtags-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cashtags-tvOS" */;
+			buildPhases = (
+				4DA7AE186DD5B2CBC0B7181E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cashtags-tvOS";
+			productName = "Cashtags-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Cashtags-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Cashtags-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cashtags-tvOSTests" */;
+			buildPhases = (
+				9C8B96888BE56011A69ABB2D /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Cashtags-tvOSTests";
+			productName = "Cashtags-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Cashtags-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 5YYZX7TBX6;
+						LastSwiftMigration = 1030;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cashtags" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A423AF4A23565176004160E3 /* Products */;
+					ProjectRef = A423AF4923565176004160E3 /* RNWowzaBroadcaster.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Cashtags */,
+				00E356ED1AD99517003FC87E /* CashtagsTests */,
+				2D02E47A1E0B4A5D006451C7 /* Cashtags-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Cashtags-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A423AF4E23565176004160E3 /* libRNWowzaBroadcaster.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNWowzaBroadcaster.a;
+			remoteRef = A423AF4D23565176004160E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A5675F8E174A4DA387DF7B7E /* AbrilFatface-Regular.ttf in Resources */,
+				8C0B676468614A8F82FBDCE1 /* Bitter-Bold.ttf in Resources */,
+				5099D71521A14129AA1B350E /* Bitter-Italic.ttf in Resources */,
+				842CB6679DC44943A557EED5 /* Bitter-Regular.ttf in Resources */,
+				24BF0EA894234E20A680C66D /* Montserrat-Bold.ttf in Resources */,
+				2F2071B9DC614FCBAC349CCF /* Montserrat-Light.ttf in Resources */,
+				DB29D846C5244D73BDB6F921 /* Montserrat-Regular.ttf in Resources */,
+				CBE94DAD79B844418C28A8CA /* Montserrat-SemiBold.ttf in Resources */,
+				26593A624F73432D92D73698 /* Montserrat-Thin.ttf in Resources */,
+				DCC2A48B83D64C1CB63E3E40 /* OpenSans-Bold.ttf in Resources */,
+				6F47756FC3EA455B83FEDB42 /* OpenSans-Light.ttf in Resources */,
+				59865BAD48E5424CB2D1F3F2 /* OpenSans-Regular.ttf in Resources */,
+				117A7C3ACF4B4D9583AA88DD /* OpenSans-Semibold.ttf in Resources */,
+				22842E38209F42DAB525023F /* Stink on the Death.ttf in Resources */,
+				A4A3EA03235673FC00FC2014 /* LICENSE in Resources */,
+				A4A3EA04235673FC00FC2014 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		0D15EB3F96B96C4B736AB80A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cashtags/Pods-Cashtags-frameworks.sh",
+				"${PODS_ROOT}/Braintree/Frameworks/CardinalMobile.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CardinalMobile.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cashtags/Pods-Cashtags-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4DA7AE186DD5B2CBC0B7181E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cashtags-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF50E3F3640454B18B6D5E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cashtags-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFE8B88F6062EFC50EAAA10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cashtags/Pods-Cashtags-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Braintree/Braintree-UI-Localization.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Braintree/Braintree-Drop-In-Localization.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BraintreeDropIn/Braintree-UIKit-Localization.bundle",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@3x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/placeholder-image.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~ipad.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphonelandscape.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphoneportrait.xib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Braintree-UI-Localization.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Braintree-Drop-In-Localization.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Braintree-UIKit-Localization.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder-image.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphonelandscape.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphoneportrait.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cashtags/Pods-Cashtags-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8B96888BE56011A69ABB2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cashtags-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A423AF98235656AB004160E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/WowzaGoCoderSDK.framework/strip-frameworks.sh\"\n";
+		};
+		A8CC95094D09F3DAC4AA1490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashtagsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CashtagsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3EA3623568D0E00FC2014 /* AppBridge.m in Sources */,
+				A4A3EA3723568D0E00FC2014 /* NowPlaying.m in Sources */,
+				A4A3E9CF235672D400FC2014 /* RNAppleMusicPlayerManager.m in Sources */,
+				A4A3EA3B23568D4C00FC2014 /* UIImage+Helper.m in Sources */,
+				A4A3E9D0235672D400FC2014 /* AppleMusicPlayer.m in Sources */,
+				A4A3EA09235673FC00FC2014 /* UIButton+AFNetworking.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				A4A3E9FE235673FC00FC2014 /* AFHTTPSessionManager.m in Sources */,
+				A4A3EA07235673FC00FC2014 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				A4A3EA0D235673FC00FC2014 /* AFImageDownloader.m in Sources */,
+				A4A3EA00235673FC00FC2014 /* AFURLRequestSerialization.m in Sources */,
+				A4A3E9FD235673FC00FC2014 /* AFURLResponseSerialization.m in Sources */,
+				A4A3EA01235673FC00FC2014 /* AFNetworkReachabilityManager.m in Sources */,
+				A4A3EA7523568E2600FC2014 /* YoutubeParser.m in Sources */,
+				A4A3EA05235673FC00FC2014 /* UIProgressView+AFNetworking.m in Sources */,
+				A4A3E9D2235672D400FC2014 /* RNAppleMusic.m in Sources */,
+				A4A3EA08235673FC00FC2014 /* UIImageView+AFNetworking.m in Sources */,
+				A4A3E9D3235672D400FC2014 /* AppleMusicManager.m in Sources */,
+				A4A3EA0A235673FC00FC2014 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				A4A3EA0C235673FC00FC2014 /* AFAutoPurgingImageCache.m in Sources */,
+				A4A3EA30235689B000FC2014 /* Dummy.swift in Sources */,
+				A4A3E9CD235672D400FC2014 /* AppleMusicModel.m in Sources */,
+				A4A3EA112356743800FC2014 /* NSDictionary+JSON.m in Sources */,
+				A4A3EA0B235673FC00FC2014 /* UIWebView+AFNetworking.m in Sources */,
+				A4A3E9D1235672D400FC2014 /* AppleMusicApi.m in Sources */,
+				A4A3EA02235673FC00FC2014 /* AFSecurityPolicy.m in Sources */,
+				A4A3EA06235673FC00FC2014 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A4A3E9CE235672D400FC2014 /* RNAppleMusicPlayer.m in Sources */,
+				A4A3E9FF235673FC00FC2014 /* AFURLSessionManager.m in Sources */,
+				A4A3E9FC235673FC00FC2014 /* URLRequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* CashtagsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Cashtags */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Cashtags-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Cashtags;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D4EFF5F606135EA504363F /* Pods-CashtagsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CashtagsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashtags.app/Cashtags";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E754AA4C48C3B68CE91839D6 /* Pods-CashtagsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CashtagsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashtags.app/Cashtags";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACDC38D2477F83C70362E53 /* Pods-Cashtags.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 5YYZX7TBX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Braintree\"",
+					"\"${PODS_ROOT}/Headers/Public/BraintreeDropIn\"",
+					"\"${PODS_ROOT}/Headers/Public/CardIO\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/QBImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RSKImageCropper\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-blur\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-orientation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-video\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = Cashtags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chilll.zyon;
+				PRODUCT_NAME = Cashtags;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cashtags-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E679987BFAEA82BA8DBF3451 /* Pods-Cashtags.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YYZX7TBX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Braintree\"",
+					"\"${PODS_ROOT}/Headers/Public/BraintreeDropIn\"",
+					"\"${PODS_ROOT}/Headers/Public/CardIO\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/QBImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RSKImageCropper\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-blur\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-orientation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-video\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(SRCROOT)/node_modules/React/**",
+				);
+				INFOPLIST_FILE = Cashtags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chilll.zyon;
+				PRODUCT_NAME = Cashtags;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cashtags-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7D063CD4A7EA5F5CD34FBB /* Pods-Cashtags-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cashtags-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cashtags-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6983C0AAC0BFBD466B64E21A /* Pods-Cashtags-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cashtags-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cashtags-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FEB6D8AA7ECA98AAE17402 /* Pods-Cashtags-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cashtags-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cashtags-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashtags-tvOS.app/Cashtags-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54592227CF97E1B5BA059D3 /* Pods-Cashtags-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cashtags-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cashtags-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashtags-tvOS.app/Cashtags-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CashtagsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cashtags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cashtags-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cashtags-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cashtags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
