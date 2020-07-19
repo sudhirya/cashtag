@@ -14,7 +14,7 @@
     "@expo/react-native-action-sheet": "3.2.0",
     "@react-native-community/async-storage": "1.6.2",
     "@react-native-community/netinfo": "4.4.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "moment": "2.24.0",
     "numeral": "2.0.6",
     "patch-package": "6.2.0",
